@@ -2,8 +2,11 @@
 
 前置条件: 如未特别说明，本文档已默认您把php命令加入了环境变量
 
+**FeehiCMS从1.0.0alpha1开始同时维护两个版本，通过归档文件或者composer create-project feehi/cms webApp安装的目录结构简单，但不能平滑升级FeehiCMS，通过composer create-project feehi/feehicms安装的目录**
+
 
 ##一：使用归档文件
+>(简单方便，无法升级新版feehicms)
 
 1. 下载FeehiCMS源码 [点击此处下载最新版](http://resource-1251086492.file.myqcloud.com/Feehi_CMS.zip)
 2. 解压到目录 
@@ -13,12 +16,11 @@
     
 
 
-##二：使用composer (推荐使用此方式安装)
-composer的安装以及国内镜像设置请点击[此处](http://www.phpcomposer.com/)
+##二：使用composer (推荐使用此方式安装，运行composer update平滑升级FeehiCMS)
+>composer的安装以及国内镜像设置请点击[此处](http://www.phpcomposer.com/)
 1. 执行以下命令
  ```bash
- composer global require "fxp/composer-asset-plugin:~1.1.1"
- composer create-project feehi/cms webApp
+ composer create-project feehi/feehicms webApp
  cd webApp
  php ./yii init #初始化yii2框架
  php ./yii migrate #导入FeehiCMSsql数据库，执行此步骤之前请先到common/config/main-local.php修改成正确的数据库配置
@@ -26,7 +28,7 @@ composer的安装以及国内镜像设置请点击[此处](http://www.phpcompose
  2. 配置web服务器(参加下面)
  3. 完成
  
-##附：web服务器配置(注意是设置"path/to/frontend/web为根目录)
+###附：web服务器配置(注意是设置"path/to/frontend/web为根目录)
  
  1. php内置web服务器(仅可用于开发环境,当您的环境中没有web服务器时)
  ```bash
@@ -59,6 +61,10 @@ composer的安装以及国内镜像设置请点击[此处](http://www.phpcompose
      root   /path/to/frontend/web;
      index  index.php index.html index.htm;
      try_files $uri $uri/ /index.php?$args;
+     
+     location ~ /api/(?!index.php).*$ {
+        rewrite /api/(.*) /api/index.php?r=$1 last;
+     }
  
      location ~ \.php$ {
          fastcgi_pass   127.0.0.1:9000;

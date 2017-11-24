@@ -3,6 +3,7 @@
 * [开始](start.md)
 * [前言](introduce.md)
 * [安装](install.md)
+* [运行测试](tests.md)
 * [目录结构](directory-structure.md)
 * [数据库设计](database-schema.md)
 * [配置](config.md)
