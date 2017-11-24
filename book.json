@@ -1,0 +1,81 @@
+{
+  "title": "FeehiCMS文档",
+  "description": "FeehiCMS文档",
+  "author": "liufee",
+  "output.name": "site",
+  "language": "zh-hans",
+  "gitbook": "3.2.2",
+  "root": ".",
+  "structure": {
+    "readme": "start.md"
+  },
+  "links": {
+    "sidebar": {
+      "github": "https://github.com/liufee/cms"
+    }
+  },
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-pro",
+    "changyan",
+    "splitter",
+    "baidu",
+    "editlink",
+    "-highlight",
+    "prism",
+    "sharing",
+    "github-buttons",
+    "tbfed-pagefooter"
+  ],
+  "pluginsConfig": {
+      "theme-default": {
+        "showLevel": true
+      },
+      "search-pro": {
+        "cutWordLib": "nodejieba",
+        "defineWord" : ["FeehiCMS"]
+      },
+      "changyan": {
+        "appid": "cytkBSEup",
+        "conf": "the conf in the code generate by changyan"
+      },
+      "sharing": {
+          "weibo": true,
+          "facebook": true,
+          "twitter": true,
+          "google": true,
+          "instapaper": false,
+          "vk": false,
+          "all": [
+            "vk", "instapaper"
+          ]
+      },
+      "baidu": {
+        "token": "a8620f6cad15d24a9fa7554e3496225f"
+      },
+      "editlink": {
+        "base": "https://github.com/liufee/cms-doc/blob/master/",
+        "label": "编辑本页"
+      },
+      "prism": {
+        "css": [
+          "prismjs/themes/prism-solarizedlight.css"
+        ]
+      },
+      "github-buttons": {
+        "buttons": [{
+          "user": "liufee",
+          "repo": "cms",
+          "type": "star",
+          "size": "small"
+        }]
+      },
+      "tbfed-pagefooter": {
+        "copyright":"&copy FeehiCMS",
+        "modify_label": "修订时间：",
+        "modify_format": "YYYY-MM-DD HH:mm:ss"
+      }
+  }
+
+}

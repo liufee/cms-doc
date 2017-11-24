@@ -1,6 +1,7 @@
 # 目录
 
-* [简介](introduce.md)
+* [开始](start.md)
+* [前言](introduce.md)
 * [安装](install.md)
 * [目录结构](directory-structure.md)
 * [数据库设计](database-schema.md)
