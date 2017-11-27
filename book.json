@@ -11,7 +11,7 @@
   },
   "links": {
     "sidebar": {
-      "Home": "http://blog.feehi.com"
+      "Home": "http://cms.feehi.com"
     }
   },
   "plugins": [
@@ -50,7 +50,6 @@
     "include-csv",
     "puml@^1.0.1",
     "musicxml",
-    "klipse",
     "rss",
     "-sharing",
     "sharing-plus",
@@ -89,15 +88,14 @@
     "sharing": {
       "douban": false,
       "facebook": false,
-      "google": true,
       "hatenaBookmark": false,
       "instapaper": false,
       "line": false,
-      "linkedin": true,
+      "linkedin": false,
       "messenger": false,
       "pocket": false,
-      "qq": false,
-      "qzone": false,
+      "qq": true,
+      "qzone": true,
       "stumbleupon": false,
       "twitter": false,
       "viber": false,
@@ -106,21 +104,21 @@
       "whatsapp": false,
       "all": [
         "facebook", "google", "twitter",
-        "weibo", "instapaper", "linkedin",
-        "pocket", "stumbleupon", "qq", "qzone"
+        "instapaper", "linkedin",
+        "pocket", "stumbleupon"
       ]
     },
     "tbfed-pagefooter": {
-      "copyright": "Copyright © zhangjikai.com 2017",
-      "modify_label": "该文件修订时间：",
+      "copyright": "Copyright © www.feehi.com 2017",
+      "modify_label": "修订时间：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
     "3-ba": {
-      "token": "ff100361cdce95dd4c8fb96b4009f7bc"
+      "token": "a8620f6cad15d24a9fa7554e3496225f"
     },
     "donate": {
-      "wechat": "https://zhangjikai.com/resource/weixin.png",
-      "alipay": "https://zhangjikai.com/resource/alipay.png",
+      "wechat": "resource/images/wechatpay.png",
+      "alipay": "resource/images/alipay.png",
       "title": "",
       "button": "赏",
       "alipayText": "支付宝打赏",
@@ -131,11 +129,11 @@
       "skipFirstH1": true
     },
     "edit-link": {
-      "base": "https://github.com/zhangjikai/gitbook-use/edit/master",
-      "label": "Edit This Page"
+      "base": "https://github.com/liufee/cms-doc/edit/master",
+      "label": "编辑此页"
     },
     "sitemap-general": {
-      "prefix": "http://gitbook.zhangjikai.com"
+      "prefix": "http://doc.feehi.com"
     },
     "anchor-navigation-ex": {
       "isRewritePageTitle": false,
@@ -147,8 +145,8 @@
       "tag": "b"
     },
     "favicon": {
-      "shortcut": "favicon.ico",
-      "bookmark": "favicon.ico"
+      "shortcut": "resource/images/favicon.ico",
+      "bookmark": "resource/images/favicon.ico"
     },
     "terminal": {
       "copyButtons": true,
@@ -159,24 +157,20 @@
     "versions": {
       "options": [
         {
-          "value": "http://gitbook.zhangjikai.com",
-          "text": "v3.2.3"
-        },
-        {
-          "value": "http://gitbook.zhangjikai.com/v2/",
-          "text": "v2.6.4"
+          "value": "http://doc.feehi.com",
+          "text": "v1.0.0"
         }
       ]
     },
 
     "rss": {
-      "title": "GitBook 使用教程",
-      "description": "记录 GitBook 的配置和一些插件的使用",
-      "author": "Jikai Zhang",
-      "feed_url": "http://gitbook.zhangjikai.com/rss",
-      "site_url": "http://gitbook.zhangjikai.com/",
-      "managingEditor": "me@zhangjikai.com",
-      "webMaster": "me@zhangjikai.com",
+      "title": "FeehiCMS开发文档",
+      "description": "FeehiCMS二次开发文档",
+      "author": "liufee",
+      "feed_url": "http://doc.feehi.com/rss",
+      "site_url": "http://doc.feehhi.com/",
+      "managingEditor": "job@feehi.com",
+      "webMaster": "job@feehi.com",
       "categories": [
         "gitbook"
       ]
