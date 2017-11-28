@@ -1,7 +1,10 @@
 # 目录
 
-* [开始](start.md)
-* [前言](introduce.md)
+##前言
+* [关于](README.md)
+* [简介](introduction.md)
+
+##基础
 * [安装](install.md)
 * [运行测试](tests.md)
 * [目录结构](directory-structure.md)
@@ -9,11 +12,15 @@
 * [配置](config.md)
 * [控制器](controller.md)
 * [模型](model.md)
-* [视图](model.md)
+* [视图](view.md)
+
+##功能
 * [多语言](multiple-language.md)
 * [权限管理](rbac.md)
 * [后台操作日志](operate-log.md)
-* [程序错误日志](rbac.md)
-* [组件](rbac.md)
-   * [ueditor](ueditor.md)
-   * [form](ueditor.md)
+* [程序错误日志](system-log.md)
+
+##组件
+* [widgets](rbac.md)
+   * [ActiveForm](active-form.md)
+   * [ActiveField](active-field.md)

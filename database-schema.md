@@ -15,47 +15,6 @@ created_at  创建时间
 updated_at  修改时间
 
 
-##数据表admim_role_permission  各角色所拥有的权限
-
-id 自增id
-
-role_id 角色id
-
-menu_id 菜单id
-
-created_at  创建时间
-
-updated_at  最后修改
-
-
-##数据表admin_role_user  后台管理员所属角色
-
-id 自增id
-
-uid 管理员用户id
-
-role_id 角色id
-
-created_at 创建时间
-
-updated_at 最后修改
-
-
-##数据表admin_roles  角色
-
-id 自增id
-
-parent_id 父角色id
-
-role_name 角色名称
-
-remark 角色备注
-
-created_at 创建时间
-
-updated_at 最后更新
-
-
 ##数据表admin_user 后台管理员
 
 id 自增id
@@ -117,6 +76,8 @@ can_comment  文章是否允许评论
 
 visibility 文章可见性（1为可见，2为评论可见，3为输入密码可见）
 
+password 文章密码
+
 tag 文章标签
 
 flag_headline 头条标签
@@ -157,8 +118,6 @@ key  标签名称
 
 value 标签值
 
-ip 来源ip
-
 created_at 创建时间
 
 
@@ -169,6 +128,8 @@ id 自增id
 parent_id 父分类id
 
 name 分类名称
+
+alias 别名
 
 sort 分类排序
 
@@ -208,7 +169,7 @@ created_at 创建时间
 updated_at 最后修改
 
 
-##数据表friend_link 友情链接
+##数据表friendly_link 友情链接
 
 id 自增id
 
@@ -250,8 +211,6 @@ target 菜单打开方式（是否新窗口）
 is_absolute_url 菜单地址是否绝对地址
 
 is_display 菜单是否显示
-
-method 菜单请求方式(get/post)
 
 created_at 创建时间
 

@@ -128,28 +128,24 @@
               'errorHandler' => [
                   'errorAction' => 'site/error',//错误处理器，捕捉到异常后都会执行此控制器的方法
               ],
-              'rbac' => [//权限管理配置
-                  'class' => backend\components\Rbac::className(),
-                  'superAdministrators' => [//此处设置超级管理员用户数组，不受权限管理的控制
-                      'admin',
-                      'administrator',
+               'as access' => [//权限控制行为配置
+                      'class' => backend\components\AccessControl::className(),
+                      'allowActions' => [//不加入权限控制的控制器和操作
+                          'site/login',
+                          'site/captcha',
+                          'site/error',
+                          'site/index',
+                          'site/main',
+                          'site/logout',
+                          'site/language',
+                          'admin-user/request-password-reset',
+                          'admin-user/reset-password',
+                          'admin-user/update-self',
+                          'debug/*',//*为通配符,表示任意以debug开始的路由都不纳入权限控制
+                          'gii/*',
+                      ],
+                      'superAdminUserIds' => [1],//超级管理员用户id，拥有所有权限，不受权限管理的控制
                   ],
-                  'noNeedAuthentication' => [//无需权限管理的控制器/操作，任意角色、用户，包括未登录均可访问
-                      'site/index',
-                      'site/login',
-                      'site/logout',
-                      'site/main',
-                      'site/captcha',
-                      'site/error',
-                      'site/language',
-                      'admin-user/update-self',
-                      'error/forbidden',
-                      'error/not-found',
-                      'debug/default/toolbar',
-                      'debug/default/view',
-                      'assets/ueditor'
-                  ],
-              ],
               'request' => [
                   'csrfParam' =>'_csrf_backend',
               ],

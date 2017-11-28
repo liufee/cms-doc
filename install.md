@@ -2,7 +2,7 @@
 
 前置条件: 如未特别说明，本文档已默认您把php命令加入了环境变量
 
-**FeehiCMS从1.0.0alpha1开始同时维护两个版本，通过归档文件或者composer create-project feehi/cms webApp安装的目录结构简单，但不能平滑升级FeehiCMS，通过composer create-project feehi/feehicms安装的目录**
+>**[info]FeehiCMS从1.0.0alpha1开始同时维护两个版本，通过归档文件或者composer create-project feehi/cms webApp安装的目录结构简单，但不能平滑升级FeehiCMS，通过composer create-project feehi/feehicms安装的目录**
 
 
 ##一：使用归档文件
@@ -18,6 +18,7 @@
 
 ##二：使用composer (推荐使用此方式安装，运行composer update平滑升级FeehiCMS)
 >composer的安装以及国内镜像设置请点击[此处](http://www.phpcomposer.com/)
+
 1. 执行以下命令
  ```bash
  composer create-project feehi/feehicms webApp
