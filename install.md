@@ -1,6 +1,6 @@
 #安装
 
-前置条件: 如未特别说明，本文档已默认您把php命令加入了环境变量
+前置条件: 如未特别说明，本文档已默认您把php命令加入了环境变量，如果您未把php加入环境变量，请把以下命令中的php替换成/path/to/php
 
 >**[info]FeehiCMS从1.0.0alpha1开始同时维护两个版本，通过归档文件或者composer create-project feehi/cms webApp安装的目录结构简单，但不能平滑升级FeehiCMS，通过composer create-project feehi/feehicms安装的目录**
 
@@ -16,18 +16,30 @@
     
 
 
-##二：使用composer (推荐使用此方式安装，运行composer update平滑升级FeehiCMS)
->composer的安装以及国内镜像设置请点击[此处](http://www.phpcomposer.com/)
+##二：使用composer (推荐使用此方式安装)
+2. 使用composer (`推荐使用此方式安装`)
+>使用此方式安装，默认的后台超级管理员用户名admin密码123456
+ composer的安装以及国内镜像设置请点击 [此处](http://www.phpcomposer.com/)
+ 以下命令默认您已全局安装composer，如果您是局部安装的composer:请使用php /path/to/composer.phar来替换以下命令中的composer
+1. 使用composer下载创建FeehiCMS项目
+    **以下两个命令任选其一。如果喜欢简单且日后不需要升级FeehiCMS请选择命令一,如果日后需要平滑升级FeehiCMS请选择命令二**
 
-1. 执行以下命令
+```bash
+    $ composer create-project feehi/cms webApp //此命令创建的FeehiCMS项目不能平滑升级新版本(目录结构简单,目前主力维护版本)
+```
+```bash
+    $ composer create-project feehi/feehicms webApp //此命令创建的FeehiCMS项目能够通过运行composer update平滑升级到FeehiCMS新版本(FeehiCMS以composer包提供,未来可能主力维护此版本)
+```
+
+2. 依次执行以下命令初始化yii2框架以及导入数据库
  ```bash
- composer create-project feehi/feehicms webApp
- cd webApp
- php ./yii init #初始化yii2框架
- php ./yii migrate #导入FeehiCMSsql数据库，执行此步骤之前请先到common/config/main-local.php修改成正确的数据库配置
+ $ cd webApp
+ $ php ./init --env=Production #初始化yii2框架
+ $ php ./yii migrate/up --interactive=0 #导入FeehiCMS sql数据库，执行此步骤之前请先到common/config/main-local.php修改成正确的数据库配置
  ```
- 2. 配置web服务器(参加下面)
- 3. 完成
+3. 配置web服务器(参加下面)
+4. 完成
+
  
 ###附：web服务器配置(注意是设置"path/to/frontend/web为根目录)
  

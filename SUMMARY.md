@@ -13,6 +13,7 @@
 * [控制器](controller.md)
 * [模型](model.md)
 * [视图](view.md)
+* [JS操作 **荐**](js.md)
 
 ##功能
 * [多语言](multiple-language.md)
@@ -21,6 +22,6 @@
 * [程序错误日志](system-log.md)
 
 ##组件
-* [widgets](rbac.md)
-   * [ActiveForm](active-form.md)
-   * [ActiveField](active-field.md)
+* [widgets]()
+   * [ActiveForm]()
+   * [ActiveField]()
