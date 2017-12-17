@@ -53,7 +53,7 @@ github [链接](https://github.com/liufee/cms/ "github")
 2. 使用Docker容器
     ```bash
     $ docker pull registry.cn-hangzhou.aliyuncs.com/liufee/cms
-    $ docker run --name feehicms -h feehicms -itd -p 80:80 -p 22:22 liufee/cms
+    $ docker run --name feehicms -h feehicms -itd -p 80:80 liufee/cms
     ```
    
    
@@ -64,9 +64,8 @@ github [链接](https://github.com/liufee/cms/ "github")
 * [微信公众号益乐游戏](http://www.ylegame.com/)  
 * [Usens Dev博客](http://dev.usensinc.com/)  
 * [最美容颜](http://www.zmface.com/)  
-* [有温度](http://youwendu.cn/)  
 * [云上旅游集团](http://www.ys517.cn/)  
 * [微信公众号蚂蚁鲜生](http://www.chijidun.com/) 
 *  ......
    
-最后更新2017年11月24日
+最后更新2017年12月16日

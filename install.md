@@ -34,7 +34,7 @@
 2. 依次执行以下命令初始化yii2框架以及导入数据库
  ```bash
  $ cd webApp
- $ php ./init --env=Production #初始化yii2框架
+ $ php ./init --env=Development #初始化yii2框架，线上环境请使用--env=Production
  $ php ./yii migrate/up --interactive=0 #导入FeehiCMS sql数据库，执行此步骤之前请先到common/config/main-local.php修改成正确的数据库配置
  ```
 3. 配置web服务器(参加下面)
