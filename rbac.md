@@ -1,5 +1,5 @@
 #权限
->**[info]FeehiCMS1.0.0完全重写了rbac权限管理，替换为yii2自带的rbac实现，主要借鉴了mdmsoft/yii2-admin扩展，使之更符合国人的操作习惯
+>[info]FeehiCMS1.0.0完全重写了rbac权限管理，替换为yii2自带的rbac实现，主要借鉴了mdmsoft/yii2-admin扩展，使之更符合国人的操作习惯
 
 ##配置
 backend/config/main.php
