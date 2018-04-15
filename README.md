@@ -59,13 +59,12 @@ github [链接](https://github.com/liufee/cms/ "github")
    
 项目展示
 ------------
-* [lcs消费金融](http://118.89.241.65/)   
-* [吉安市食品药品监督管理局](http://jamsda.jsz2.com:8011/)  
-* [微信公众号益乐游戏](http://www.ylegame.com/)  
+* [山东城市服务技师学院](http://www.sdcc.edu.cn/)   
+* [优悦娱乐网](http://www.qqyouyue.com/)  
 * [Usens Dev博客](http://dev.usensinc.com/)  
-* [最美容颜](http://www.zmface.com/)  
-* [云上旅游集团](http://www.ys517.cn/)  
+* [完美娱乐](http://www.qqwanmei.com/)  
+* [北京大学附属中学](http://group-ht.pkuschool.edu.cn/)  
 * [微信公众号蚂蚁鲜生](http://www.chijidun.com/) 
-*  ......
+* [用友财务软件](http://www.myyonyou.cn/) 
    
-最后更新2017年12月16日
+最后更新2018年04月15日
