@@ -59,7 +59,8 @@ github [链接](https://github.com/liufee/cms/ "github")
    
 项目展示
 ------------
-* [山东城市服务技师学院](http://www.sdcc.edu.cn/)   
+* [山东城市服务技师学院](http://www.sdcc.edu.cn/)
+* [吉安市食品药品监督管理局](http://www.jamsda.gov.cn/)
 * [优悦娱乐网](http://www.qqyouyue.com/)  
 * [Usens Dev博客](http://dev.usensinc.com/)  
 * [完美娱乐](http://www.qqwanmei.com/)  

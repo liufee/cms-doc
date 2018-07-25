@@ -8,7 +8,7 @@
 ##一：使用归档文件
 >(简单方便，无法升级新版feehicms)
 
-1. 下载FeehiCMS源码 [点击此处下载最新版](http://resource-1251086492.file.myqcloud.com/Feehi_CMS.zip)
+1. 下载FeehiCMS源码 [点击此处下载最新版](http://resource-1251086492.cossh.myqcloud.com/Feehi_CMS.zip)
 2. 解压到目录 
 3. 配置web服务器(参见下面)
 4. 浏览器打开http://localhost/install.php按照提示完成安装
@@ -80,7 +80,7 @@
          fastcgi_index  index.php;
          fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
          include        fastcgi_params;
-         try_files $uri=404;
+         try_files $uri =404;
      }
  }
  ```
