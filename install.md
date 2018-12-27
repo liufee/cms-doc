@@ -2,8 +2,9 @@
 
 前置条件: 如未特别说明，本文档已默认您把php命令加入了环境变量，如果您未把php加入环境变量，请把以下命令中的php替换成/path/to/php
 
->**[info]FeehiCMS从1.0.0alpha1开始同时维护两个版本，通过归档文件或者composer create-project feehi/cms webApp安装的目录结构简单，但不能平滑升级FeehiCMS，通过composer create-project feehi/feehicms安装的目录**
+>**[info]如果配置完web服务器看到404，请确认是把/path/to/frontend/web设置为web根目录，如果不想修改也可以尝试访问http://xxx.com/frontend/web/install.php**
 
+>**[info]如果安装完打开首页看到图片加载失败，请前往后台:设置->网站设置->网站域名 填写正确的前台地址，如//xxx.com或者//xxx.com/Feehi_CMS/frontend/web***
 
 ##一：使用归档文件
 >(简单方便，无法升级新版feehicms)
@@ -34,7 +35,7 @@
  $ php ./yii migrate/up --interactive=0 #导入FeehiCMS sql数据库，执行此步骤之前请先到common/config/main-local.php修改成正确的数据库配置
  ```
 3. 配置web服务器(参加下面)
-4. 完成
+4. 完成(通过此方式安装的并未带示例文章图片，可以执行php ./yii feehi/download-upload-files或者composer run download-upload-files下载文章配图，然后刷新首页即能看到图片)
 
  
 ###附：web服务器配置(注意是设置"path/to/frontend/web为根目录)

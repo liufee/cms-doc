@@ -23,7 +23,6 @@
 * [程序错误日志](system-log.md)
 * [css/js cdn配置](assets-cdn.md)
 
-##组件
+##小部件
 * [widgets]()
-   * [ActiveForm]()
-   * [ActiveField]()
+   * [后台表单输入框](backend_active_form.md)

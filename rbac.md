@@ -6,7 +6,7 @@ backend/config/main.php
    ```php
     'as access' => [
         'class' => backend\components\AccessControl::className(),
-        'allowActions' => [//不受权限控制的路由，格式为module/controller/action
+        'allowActions' => [//不受权限控制的路由，格式为module/controller/action，没有采用module开发可以不用module
             'site/login',
             'site/captcha',
             'site/error',
