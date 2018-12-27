@@ -25,5 +25,4 @@
 * [css/js cdn配置](assets-cdn.md)
 
 ##小部件
-* [widgets]()
-   * [后台表单输入框](backend_active_form.md)
+* [后台表单输入框](backend_active_form.md)
