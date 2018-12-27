@@ -10,6 +10,7 @@
 * [目录结构](directory-structure.md)
 * [数据库设计](database-schema.md)
 * [配置](config.md)
+* [路由美化](urlmanager.md)
 * [控制器](controller.md)
 * [模型](model.md)
 * [视图](view.md)
