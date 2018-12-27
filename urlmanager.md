@@ -7,6 +7,7 @@
 ##前台
 1. 确保web服务器开启并配置了伪静态，并重启web服务器。详见http://doc.feehi.com/install.html
 2. 修改frontend/config/main.php为
+
 ```php
     return [
         'id' => 'app-frontend',

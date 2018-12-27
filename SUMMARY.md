@@ -20,8 +20,6 @@
 * [多语言](multiple-language.md)
 * [权限管理](rbac.md)
 * [cdn配置](cdn.md)
-* [后台操作日志](operate-log.md)
-* [程序错误日志](system-log.md)
 * [css/js cdn配置](assets-cdn.md)
 
 ##小部件
