@@ -4,7 +4,7 @@
 
 >**[info]如果配置完web服务器看到404，请确认是把/path/to/frontend/web设置为web根目录，如果不想修改也可以尝试访问http://xxx.com/frontend/web/install.php**
 
->**[info]如果安装完打开首页看到图片加载失败，请前往后台:设置->网站设置->网站域名 填写正确的前台地址，如//xxx.com或者//xxx.com/Feehi_CMS/frontend/web***
+>**[info]如果安装完打开首页看到图片加载失败，请前往后台:设置->网站设置->网站域名 填写正确的前台地址，如//xxx.com或者//xxx.com/Feehi_CMS/frontend/web**
 
 ##一：使用归档文件
 >(简单方便，无法升级新版feehicms)
@@ -25,7 +25,7 @@
 1. 使用composer下载创建FeehiCMS项目
 
 ```bash
-    $ composer create-project feehi/cms webApp //此命令创建的FeehiCMS项目不能平滑升级新版本(目录结构简单,目前主力维护版本)
+    $ composer create-project feehi/cms webApp
 ```
 
 2. 依次执行以下命令初始化yii2框架以及导入数据库

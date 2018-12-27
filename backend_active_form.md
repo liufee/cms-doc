@@ -1,6 +1,6 @@
 #后台表单输入框
 
->**[info]该小部件继承yii\widgets\ActiveField,所以yii2框架自带的输入框均包含在内，部分被cms重写了***
+>**[info]该小部件继承yii\widgets\ActiveField,所以yii2框架自带的输入框均包含在内，部分被cms重写了**
 
 ```php
 //示例用法
