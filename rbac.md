@@ -61,5 +61,6 @@ backend/config/main.php
 
    备注好方法后执行
 ```shell
-    /path/to/php ./yii feehi/permission即可自动创建权限
+    /path/to/php ./yii feehi/permission
 ```
+即可自动创建权限
