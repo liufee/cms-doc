@@ -7,3 +7,5 @@
 
 ##views/控制器名/action指定的模板名称
 feehicms内置了一些常用的widgets来快速生成列表、操作按钮...具体查看本文档widgets章节
+
+##test git auto update
