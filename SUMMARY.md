@@ -15,6 +15,7 @@
 * [模型](model.md)
 * [视图](view.md)
 * [JS操作 **荐**](js.md)
+* [gii生成代码 **荐**](gii.md)
 
 ##功能
 * [多语言](multiple-language.md)
@@ -23,4 +24,7 @@
 * [css/js cdn配置](assets-cdn.md)
 
 ##小部件
-* [后台表单输入框](backend_active_form.md)
+* [后台表单输入框 **荐**](backend_active_form.md)
+
+##文章
+* [模版 **荐**](article_template.md)

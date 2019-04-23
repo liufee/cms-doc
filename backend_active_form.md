@@ -49,5 +49,12 @@
 ##date
 日期输入框，包含时间、时间范围选择。详见https://www.layui.com/doc/modules/laydate.html
 
+##webuploader
+多图上传，和上面使用方法稍有差异：
+```php
+<?= $form->field($model, 'images')->widget(backend\widgets\webuploader\Webuploader::className()); ?>
+```
+以上将会在页面显示一个多图上传框
+
 ##其他
 所有yii2框架有的表单小部件，该类继承自yii\widgets\ActiveField
