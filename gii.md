@@ -5,7 +5,7 @@
 ##gii生成前台代码
 FeehiCMS可以生成前台代码，但是前台交互多样，不建议用gii生成。略
 
-##gii生成后台带啊
+##gii生成后台代码
 FeehiCMS后台有自己的ui风格，所以FeehiCMS提供了一个自己的gii模版，并且默认就是以此模版生成。 
 
 1. 访问http://xxx.com/admin?r=gii
