@@ -11,7 +11,7 @@ FeehiCMS没有对yii2做任何的修改、封装，但是把yii2的一些优秀�
 
 开发交流
 -------
-QQ群:258780872
+QQ群:936448696
 
 微信 ![微信](http://img-1251086492.cosgz.myqcloud.com/github/wechat.png)
 
