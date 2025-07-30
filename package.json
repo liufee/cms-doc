@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Feehi CMS 文档",
   "scripts": {
-    "build": "honkit build && cp resource/images/favicon.ico _book/gitbook/images/favicon.ico && find _book -name \"*.html\" -exec sed -i '/gitbook-link/d' {} +\n"
+    "build": "honkit build && cp resource/images/favicon.ico _book/gitbook/images/favicon.ico && node clean.js"
   },
   "dependencies": {
     "honkit": "^4.0.0"
