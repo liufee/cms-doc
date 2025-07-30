@@ -11,12 +11,25 @@ FeehiCMS没有对yii2做任何的修改、封装，但是把yii2的一些优秀�
 
 开发交流
 -------
-QQ群:936448696
+QQ群 936448696
 
-微信 ![微信](http://img-1251086492.cosgz.myqcloud.com/github/wechat.png)
+扫码添加微信或添加wfeeliu <img src="http://img-1251086492.cosgz.myqcloud.com/github/wechat.png" alt="添加微信" width="200" height="200" style="margin-top: 5px;">
 
 Email job@feehi.com
 
+捐赠
+-------
+
+<div style="display: flex; justify-content: center; align-items: flex-start;">
+  <div style="text-align: center; margin-right: 50px;">
+    <span>微信支付</span><br>
+    <img src="resource/images/wechatpay.png" alt="微信支付" width="200" height="200" style="margin-top: 5px;">
+  </div>
+  <div style="text-align: center;">
+    <span>支付宝支付</span><br>
+    <img src="resource/images/alipay.png" alt="支付宝支付" width="200" height="200" style="margin-top: 5px;">
+  </div>
+</div>
 
 报告bug
 -------
